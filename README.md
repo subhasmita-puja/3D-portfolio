@@ -1,7 +1,5 @@
 # 3D Portfolio
 
-![Portfolio Screenshot](/public/assets/readme_assets/screenshot.png)
-
 3D Portfolio is my personal portfolio website created using Next.js, Tailwind CSS, Three.js, React Three Fiber, and a collection of other technologies. This website showcases my skills, experiences, projects, and allows users to contact me. It also offers a dark and light theme to enhance the user experience.
 
 ## Table of Contents
@@ -14,9 +12,8 @@
 6.  [Project Structure](#project-structure)
 7.  [Author](#author)
 
-## Demo
 
-You can see a live demo of the portfolio website at [https://shivam-sharma-myportfolio.vercel.app/](https://shivam-sharma-myportfolio.vercel.app/).
+
 
 ## Features
 
@@ -42,22 +39,6 @@ You can see a live demo of the portfolio website at [https://shivam-sharma-mypor
 -   [react-type-animation](https://www.npmjs.com/package/react-type-animation)
 -   [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component)
 
-## Getting started
-
-1. Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/Shivam-Sharma-1/3D-Portfolio
-```
-
-2. Change to the project directory:
-
-```bash
-cd 3d-portfolio
-```
-
-3. Install the project dependencies:
-
 ```bash
 npm install
 ```
@@ -70,16 +51,4 @@ npm run dev
 
 Open your web browser and visit http://localhost:3000 to see the website in action during development.
 
-## Project Structure
 
-The project structure is organized as follows:
-
--   `components`: React components used to build different sections of the portfolio.
--   `styles`: Styles and theme configurations, including the dark and light themes.
--   `public`: Static assets, such as images and fonts.
--   `pages`: Individual pages of the website.
--   `utils`: Utility functions or helper scripts.
-
-## Author
-
--   [@Shivam-Sharma-1](https://github.com/Shivam-Sharma-1)
