@@ -63,7 +63,7 @@ export default function App({ Component, pageProps }) {
 <link
   rel="icon"
   type="image/png"
-  href="/assets/favicon.png"
+  href="/assets/avatarr.jpg"
 />
 				<link
 					rel="manifest"
