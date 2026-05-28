@@ -28,8 +28,8 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Rashmi Ranjan Das, Python Developer specializing in Django and full-stack development, with experience building scalable applications such as AI-based virtual assistants, gesture control systems, and secure document solutions. Skilled in REST API development, database management, and backend optimization with strong problem-solving abilities. My knowledge extends to fundamental data structures and algorithms,
-          making me well-versed in fullstack web development.
+          Hello! I&apos;m Rashmi Ranjan Das, Python Developer specializing in Django and Backend development, with experience building scalable applications such as AI-based virtual assistants, gesture control systems, and secure document solutions. Skilled in REST API development, database management, and backend optimization with strong problem-solving abilities. My knowledge extends to fundamental data structures and algorithms,
+          making me well-versed in Backend web development.
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>

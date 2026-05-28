@@ -16,14 +16,18 @@ import { textVariant } from "../utils/motion";
 function ExperienceCard({ experience, theme }) {
   return (
     <VerticalTimelineElement
-      contentStyle={{
-        background:
-          theme !== "dark"
-            ? "linear-gradient(90deg, rgba(224,234,240,1) 0%, rgba(232,239,243,1) 50%, rgba(224,234,240,1) 100%)"
-            : "linear-gradient(90deg, rgba(33,33,52,1) 0%, rgba(39,39,61,1) 50%, rgba(33,33,52,1) 100%)",
-        color: theme !== "dark" ? "#7e8c9f" : "#e5e6e9",
-        boxShadow: "0 1px 2px 0 rgb(128, 77, 238)",
-      }}
+  contentStyle={{
+  background:
+    theme !== "dark"
+      ? "linear-gradient(90deg, rgba(224,234,240,1) 0%, rgba(232,239,243,1) 50%, rgba(224,234,240,1) 100%)"
+      : "linear-gradient(90deg, rgba(33,33,52,1) 0%, rgba(39,39,61,1) 50%, rgba(33,33,52,1) 100%)",
+
+  color: theme !== "dark" ? "#7e8c9f" : "#e5e6e9",
+
+  boxShadow: "0 1px 2px 0 rgb(128, 77, 238)",
+
+  marginLeft: "10px",
+}}
       contentArrowStyle={{
         borderRight: `7px solid ${theme !== "dark" ? "#e0eaf0" : "#2b2b42"}`,
       }}
@@ -31,18 +35,25 @@ function ExperienceCard({ experience, theme }) {
         boxShadow: "0 1px 2px 0 rgb(128, 77, 238 / 0.05)",
       }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg, backgroundColor: "#e0eaf0" }}
+      dateClassName="ml-10"
+    iconStyle={{
+  background: "#fff",
+  width: "100px",
+  height: "100px",
+}}
       icon={
-        <div className="flex justify-center items-center w-full h-full">
-          <div className="w-[60%] h-[60%] relative">
-            <Image
-              src={experience.icon}
-              alt={experience.company_name}
-              fill={true}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
-            />
-          </div>
-        </div>
+     <div className="flex justify-center items-center w-full h-full">
+  <div className="w-[85%] h-[85%] relative">
+    <Image
+      src={experience.icon}
+      
+      alt={experience.company_name}
+      fill
+      className="object-contain p-1"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
+    />
+  </div>
+</div>
       }
     >
       <div>

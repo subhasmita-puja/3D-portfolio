@@ -38,13 +38,10 @@ const services = [
     icon: <FullStackIcon />,
   },
   {
-    title: "Fullstack Developer",
-    icon: <FrontendIcon />,
+    title: "Backend Developer",
+    icon: <BackendIcon />,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: <BackendIcon />,
-  // },
+
   {
     title: "Problem Solving",
     icon: <ProblemSolvingIcon />,
@@ -53,10 +50,7 @@ const services = [
     title: "Freelancer",
     icon: <FreelancerIcon />,
   },
-  // {
-  //   title: "Leadership",
-  //   icon: <LeaderShipIcon />,
-  // },
+
 ];
 
 const technologies = {
@@ -86,11 +80,7 @@ const technologies = {
       icon: "/assets/tech/c.svg",
       link: "https://en.cppreference.com/w/c",
     },
-    {
-      name: "Java",
-      icon: "/assets/tech/java.svg",
-      link: "https://www.java.com/en/",
-    },
+  
     {
       name: "Python",
       icon: "/assets/tech/python.svg",
@@ -98,11 +88,7 @@ const technologies = {
     },
   ],
   frameworks: [
-    {
-      name: "Next.js",
-      icon: "/assets/tech/nextjs.svg",
-      link: "https://nextjs.org/",
-    },
+  
     {
       name: "TailwindCSS",
       icon: "/assets/tech/tailwindcss.svg",
@@ -113,11 +99,7 @@ const technologies = {
       icon: "/assets/tech/expressjs.png",
       link: "https://expressjs.com/",
     },
-    {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
-    },
+
   ],
   libraries: [
     {
@@ -126,40 +108,11 @@ const technologies = {
       link: "https://react.dev/",
     },
     {
-      name: "Three.js",
-      icon: "/assets/tech/threejs.svg",
-      link: "https://threejs.org/",
-    },
-    {
-      name: "Styled-Components",
-      icon: "/assets/tech/styled-components.png",
-      link: "https://styled-components.com/",
-    },
-    {
-      name: "Framer-motion",
-      icon: "/assets/tech/framer.svg",
-      link: "https://www.framer.com/motion/",
-    },
-    {
-      name: "Zustand",
-      icon: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
-      link: "https://zustand-demo.pmnd.rs",
-    },
-    {
       name: "Redux/Redux-toolkit",
       icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
       link: "https://redux.js.org",
     },
-    {
-      name: "NextAuth.js",
-      icon: "/assets/tech/nextauthjs.png",
-      link: "https://next-auth.js.org/",
-    },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
-    },
+   
   ],
   tools: [
     {
@@ -178,23 +131,12 @@ const technologies = {
       link: "https://www.postman.com/",
     },
     {
-      name: "Figma",
-      icon: "/assets/tech/figma.svg",
-      link: "https://www.figma.com/",
-    },
-    {
       name: "Docker",
       icon: "/assets/tech/docker.svg",
       link: "https://www.docker.com/",
     },
   ],
-  environments: [
-    {
-      name: "Node.js",
-      icon: "/assets/tech/nodejs.svg",
-      link: "https://nodejs.org/en",
-    },
-  ],
+  
   databases: [
     {
       name: "MySQL",
@@ -222,13 +164,13 @@ const technologies = {
 const experiences = [
 
   {
-    title: "Full Stack Backend Engineer (Python/Django + DevOps)",
+    title: "Backend Engineer (Python/Django + DevOps)",
     company_name: "SomniateTech",
     icon: "/assets/company/Somniate-Tech.png",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "November 2025",
     points: [
-      "Designed and deployed scalable backend systems using Python, Django REST Framework, and Node.js (Express.js), including HRMS, employee tracking, and real-time attendance solutions integrated with hardware sensors.",
+      "Designed and deployed scalable backend systems using Python, Django REST Framework, Fast API and Node.js (Express.js), including HRMS, employee tracking, and real-time attendance solutions integrated with hardware sensors.",
       "Developed and optimized REST APIs for mobile applications, enabling seamless communication, authentication, and efficient data handling with improved system performance and reliability.",
       "Managed end-to-end DevOps and production deployment on VPS using Docker, Nginx, Gunicorn, and SSL, ensuring secure, scalable, and high-availability applications.",
     ],
@@ -236,9 +178,9 @@ const experiences = [
   {
     title: "Devops Intern ",
     company_name: "Technoshrine",
-    icon: "/assets/company/drdo-cabs.png",
+    icon: "/assets/company/Technoshrine.png",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "August 2025",
     points: [
       "Built and deployed an automated chatbot using n8n, integrating APIs and workflow automation to optimize business operations.",
       "Designed end-to-end chatbot workflows, improving automation efficiency and reducing manual intervention.",
@@ -275,100 +217,86 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "QuickEdit: AI-Powered Image & Video Editor",
-    description:
-      "QuickEdit is an AI-powered online image and video editor built using the Cloudinary AI API. It offers robust features for both images and videos, with user-friendly authentication and a tiered credit system. Enhance your media editing experience with cutting-edge AI tools!",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "shadcn",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "cloudinary",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image:
-      "https://res.cloudinary.com/dqiqi75hm/image/upload/v1734187202/quickedit/dp6y8s8dstqfpq7svmj5.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/QuickEdit",
-    deployed_link: "https://quick-edit-app.vercel.app",
-  },
-  {
-    name: "FigPro",
-    description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "fabricjs",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
-  },
+{
+  name: "Women Safety Application",
+  description:
+    "Developed a Women Safety Application using Django, implementing real-time location tracking, emergency alert system, and secure authentication to enhance user safety and rapid response.",
+  tags: [
+    {
+      name: "python",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "django",
+      color: "green-text-gradient",
+    },
+    {
+      name: "sqlite",
+      color: "pink-text-gradient",
+    },
+
+    {
+      name: "bootstrap",
+      color: "yellow-text-gradient",
+    },
+  ],
+  image: "/assets/projects/sos.png",
+  source_code_link: "https://github.com/drashmiranjan/safety-Project",
  
-  {
-    name: "Facility Management System",
-    description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
-    tags: [
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: "/assets/projects/facility-manager.png",
-    source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
-    deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
-  },
+},
+ {
+  name: "AI-Based Animal Health Chatbot",
+  description:
+    "Built an AI-based Animal Health Chatbot integrating image and text processing (HuggingFace API), delivering disease insights and medicine recommendations for intelligent animal care support.",
+  tags: [
+    {
+      name: "python",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "FastAPI",
+      color: "green-text-gradient",
+    },
+    {
+      name: "huggingface-api",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "ai-chatbot",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "machine-learning",
+      color: "yellow-text-gradient",
+    },
+  ],
+  image: "/assets/projects/BOT.png",
+  source_code_link: "https://github.com/drashmiranjan/animal_helpbot",
+
+},
+ 
+{
+  name: "On-Demand Service Booking Platform",
+  description:
+    "Developed a full-stack on-demand service booking platform inspired by modern apps like Swiggy and Urban Company, designed to connect users with nearby verified technicians for services such as plumbing, electrical repair, AC servicing, cleaning, painting, and appliance repair.",
+  tags: [
+    {
+      name: "python",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "django",
+      color: "green-text-gradient",
+    },
+    {
+      name: "postgresql",
+      color: "pink-text-gradient",
+    },
+ 
+  ],
+  image: "/assets/projects/booking.jpeg",
+  source_code_link: "https://github.com/drashmiranjan/servicehub",
+},
  
 ];
 
@@ -386,23 +314,21 @@ const socials = [
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://github.com/drashmiranjan",
+    link: "https://x.com/_drashmiranjan",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://github.com/drashmiranjan",
+    link: "https://www.instagram.com/dev.chunks?igsh=enpld3RtbDM3cnM5",
   },
 ];
 
 const heroTexts = [
   "Freelancer",
   500,
-  "Full-Stack developer",
-  500,
-  "Frontend developer",
-  500,
-  "Backend developer",
+  "AI Backend ENGINEER",
+    500,
+  "Backend Developer",
   500,
   "Problem solver",
   500,

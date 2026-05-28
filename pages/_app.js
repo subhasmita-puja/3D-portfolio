@@ -27,8 +27,8 @@ export default function App({ Component, pageProps }) {
 	const description =
 		"Hello! I'm Rashmi Ranjan Das, a passionate web developer and problem solver. Welcome to my portfolio";
 	const avatar =
-		"https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
-	const url = "https://shivam-sharma-myportfolio.vercel.app/";
+		"/assets/avatarr.jpg";
+	const url = "https://drashmiranjan-myportfolio.vercel.app/";
 
 	return (
 		<>
@@ -50,7 +50,7 @@ export default function App({ Component, pageProps }) {
 
 				<meta property="twitter:image" content={avatar} />
 				<meta property="twitter:card" content="summary_large_image" />
-				<meta name="twitter:creator" content="@Shivam_1_Sharma" />
+				
 				<meta property="twitter:title" content={title} />
 				<meta property="twitter:description" content={description} />
 
@@ -60,18 +60,11 @@ export default function App({ Component, pageProps }) {
 					sizes="180x180"
 					href="/assets/icons/favicon/apple-touch-icon.png"
 				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="32x32"
-					href="/assets/icons/favicon/favicon-32x32.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="16x16"
-					href="/assets/icons/favicon/favicon-16x16.png"
-				/>
+<link
+  rel="icon"
+  type="image/png"
+  href="/assets/favicon.png"
+/>
 				<link
 					rel="manifest"
 					href="/assets/icons/favicon/site.webmanifest"
