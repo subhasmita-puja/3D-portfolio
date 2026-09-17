@@ -55,6 +55,11 @@ const services = [
 
 const technologies = {
   languages: [
+       {
+      name: "Python",
+      icon: "/assets/tech/python.svg",
+      link: "https://www.python.org/",
+    },
     {
       name: "HTML5",
       icon: "/assets/tech/html5.svg",
@@ -81,38 +86,57 @@ const technologies = {
       link: "https://en.cppreference.com/w/c",
     },
   
-    {
-      name: "Python",
-      icon: "/assets/tech/python.svg",
-      link: "https://www.python.org/",
-    },
   ],
-  frameworks: [
+frameworks: [
   
-    {
-      name: "TailwindCSS",
-      icon: "/assets/tech/tailwindcss.svg",
-      link: "https://tailwindcss.com/",
+  {
+      name: "FastAPI",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg",
+      link: "https://fastapi.tiangolo.com/",
     },
-    {
+  {
+  name: "Django",
+  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg",
+  link: "https://www.djangoproject.com/",
+},
+      {
       name: "Express.js",
       icon: "/assets/tech/expressjs.png",
       link: "https://expressjs.com/",
     },
-
   ],
   libraries: [
+   
     {
+      name: "NumPy",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg",
+      link: "https://numpy.org/",
+    },
+    {
+      name: "Pandas",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg",
+      link: "https://pandas.pydata.org/",
+    },
+     {
       name: "React",
       icon: "/assets/tech/react.svg",
       link: "https://react.dev/",
     },
+  {
+  name: "Seaborn",
+  icon: "https://seaborn.pydata.org/_static/logo-wide-lightbg.svg",
+  link: "https://seaborn.pydata.org/",
+},
     {
-      name: "Redux/Redux-toolkit",
-      icon: "https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png",
-      link: "https://redux.js.org",
+      name: "Scikit-learn",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg",
+      link: "https://scikit-learn.org/",
     },
-   
+    {
+      name: "LangChain",
+      icon: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/langchain.svg",
+      link: "https://www.langchain.com/",
+    },
   ],
   tools: [
     {
