@@ -22,6 +22,9 @@ const techVariants = [
   "Tools",
 ];
 
+// Icons whose brand color is too dark to read against a dark background
+const darkIcons = ["Django"];
+
 function Tech() {
   const languages = tech.map((technology, index) => (
     <div className="w-full h-fit flex gap-2 md:flex-row flex-col" key={index}>
@@ -40,11 +43,20 @@ function Tech() {
             target="_blank"
             className="flex flex-row"
           >
-            <div className="w-[40px] h-[40px] relative flex flex-row items-center group cursor-pointer">
+            <div
+              className={`w-[40px] h-[40px] relative flex flex-row items-center group cursor-pointer ${
+                darkIcons.includes(tech.name)
+                  ? "bg-white rounded-full p-1.5"
+                  : ""
+              }`}
+            >
               <Image
                 src={tech.icon}
                 alt={tech.name}
                 fill={true}
+                className={
+                  darkIcons.includes(tech.name) ? "p-1" : ""
+                }
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
               />
 

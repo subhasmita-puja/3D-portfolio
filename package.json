@@ -15,7 +15,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
+    "@emailjs/browser": "^3.12.1",
     "@react-three/drei": "^9.80.0",
     "@react-three/fiber": "^8.11.1",
     "@svgr/webpack": "^8.1.0",
